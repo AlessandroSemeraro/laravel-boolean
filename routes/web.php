@@ -14,6 +14,8 @@ use App\Http\Controllers\Guest\CocktailController as GuestCocktailController;
 |
 */
 
+
+//
 Route::get('/', [GuestCocktailController::class, 'index']);
 
 
